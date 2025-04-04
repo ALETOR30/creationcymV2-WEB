@@ -1860,3 +1860,27 @@ section,
 .bi-whatsapp {
   color:#17ff3b;
 }
+.serviceDetails__container--img {
+  height: 648px;
+  width: 797px;
+}
+.serviceDetails__container--img p {
+  color: white;
+  font-weight: bolder;
+  font-size:1000%;
+}
+@media (width<1024px) {
+  
+    .serviceDetails__container--img p {
+      flex-direction: column;
+      justify-content: left;
+      color: white;
+      font-weight: bolder;
+      font-size:400%;
+    }
+    .serviceDetails__container--img {
+      height: 448px;
+      width: 597px;
+    }
+  
+} 
