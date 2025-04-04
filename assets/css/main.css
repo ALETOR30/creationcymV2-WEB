@@ -1867,7 +1867,7 @@ section,
 .serviceDetails__container--img p {
   color: white;
   font-weight: bolder;
-  font-size:1000%;
+  font-size:900%;
 }
 @media (width<1024px) {
   
@@ -1876,7 +1876,7 @@ section,
       justify-content: left;
       color: white;
       font-weight: bolder;
-      font-size:400%;
+      font-size:350%;
     }
     .serviceDetails__container--img {
       height: 448px;
@@ -1884,3 +1884,6 @@ section,
     }
   
 } 
+.camion {
+  height: 200rem;
+}
