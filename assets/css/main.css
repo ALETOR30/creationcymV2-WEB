@@ -953,9 +953,9 @@ section,
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .hero .btn-get-started {
