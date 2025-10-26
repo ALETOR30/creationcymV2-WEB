@@ -1888,3 +1888,11 @@ section,
   height: 200rem;
   
 }
+/* @media (max-width:400px) {
+  .bi-facebook {
+    font-size: 1rem;
+  }
+  .bi-instagram {
+    font-size: 1rem;
+  }
+} */
