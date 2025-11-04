@@ -241,8 +241,26 @@ h6 {
 .header .logo img {
   max-height: 76px;
   margin-right: 8px;
+  animation: bounce-and-rotate 2s ease-in-out 3;
 }
-
+/* ANIMACION LOGO*/
+@keyframes bounce-and-rotate {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px); /* Bounce up and rotate */
+  }
+  50% {
+    transform: translateY(0); /* Return to original Y and continue rotation */
+  }
+  75% {
+    transform: translateY(-10px); /* Smaller bounce up and further rotation */
+  }
+  100% {
+    transform: translateY(0); /* Return to original Y and complete rotation */
+  }
+}
 .header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -1896,3 +1914,6 @@ section,
     font-size: 1rem;
   }
 } */
+.boton__whatsapp--Header {
+  animation: bounce-and-rotate 2s ease-in-out 3;
+}
